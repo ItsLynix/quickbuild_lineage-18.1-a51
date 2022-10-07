@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Remote -->
+    <remote fetch="https://github.com/Exynoobs" name="exynoobs" />
+    <remote fetch="https://github.com/LineageOS" name="lineage" />
+	
+    <!-- Device -->
+    <project name="android_device_samsung_a51" path="device/samsung/a51" remote="exynoobs" revision="lineage-18.1" />
+    <project name="android_device_samsung_exynos9611-common" path="device/samsung/exynos9611-common" remote="exynoobs" revision="lineage-18.1" />
+
+    <!-- Kernel -->
+    <project name="android_kernel_samsung_exynos9611" path="kernel/samsung/exynos9611" remote="exynoobs" revision="lineage-18.1" />
+
+    <!-- Vendor -->
+    <project name="proprietary_vendor_samsung_a51" path="vendor/samsung/a51" remote="exynoobs" revision="lineage-18.1" />
+
+    <!-- Hardware -->   
+    <project name="android_hardware_samsung" path="hardware/samsung" remote="lineage" revision="lineage-18.1" />
+    <project name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal" path="hardware/samsung_slsi/scsc/wifibt/wifi_hal" remote="lineage" revision="lineage-18.1" />
+    <project name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib" path="hardware/samsung_slsi/scsc/wifibt/wpa_supplicant_lib" remote="lineage" revision="lineage-18.1" />
+
+    <!-- Sepolicy -->
+    <project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="lineage" revision="lineage-18.1" />
+</manifest>
